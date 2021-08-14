@@ -51,15 +51,15 @@ Look at the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
 
 ### My app doesn't work when it's deployed
 
-You have deployed your app to Netlify or Vercel but it throws an error when it tries to fetch the token? This is because you haven't told Auth0 where your application is deployed. Login to [Auth0](https://manage.auth0.com) and edit your Auth0 Application. In Quick Start Step 2 we set `Allowed Callback URLs` and `Allowed Web Origins` to be:
+You have deployed your app to Netlify or Vercel but it throws an error when it tries to fetch the token? This is because you haven't told Auth0 where your application is deployed. Login to edit your [Auth0 application settings](https://manage.auth0.com).  In the Quick Start we set `Allowed Callback URLs` and `Allowed Web Origins` to be:
 
 ```
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
+Edit these to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk4NjE5NTcsLTIwNDg5OTMwMzUsLT
+eyJoaXN0b3J5IjpbLTIxMTg5Mzc1NjEsLTIwNDg5OTMwMzUsLT
 c4Nzg4NzkzMyw1Nzk0Njk4MTIsNjQ3NzQ4NTQ2LDE5OTkwMzIx
 MzgsLTE5OTk2NzE5NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OS
 wtODEzNzg0OTM5LC0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIw
