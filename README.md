@@ -27,12 +27,23 @@ value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 
 5. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
-That's it, we have Auth0 configured for both your app and your api. The two can now communicate securely.
+That's it, we have Auth0 configured for both your app and your api. The two can now communicate securely. Start your Replit api and then run `yarn start` in your app to run the demo.
 
 ## How does it all work?
 
 TODO:
 
 - Annotated Diagram
-- Common issues
 - Anatomy of a token (high level)
+
+## Common Issues
+
+### My app doesn't work when it's deployed
+
+You have deployed your app to Netlify or Vercel but it throws an error when it tries to fetch the token? This is because you haven't told Auth0 where your application is deployed to. Login to [Auth0](https://manage.auth0.com) and open up your Auth0 Application. In Quick Start Step 2 we set `Allowed Callback URLs` and `Allowed Web Origins` to be:
+
+```
+http://localhost:3000, https://add_production_url_here_once_deployed.com
+```
+
+Edit both of these fields so that the second value (after the comma) is the URL of your deployed app. Do not remove localhost, that is still needed when you are developing locally.
