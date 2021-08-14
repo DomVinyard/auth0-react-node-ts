@@ -34,7 +34,7 @@ value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 That's it, the app and the api can now communicate securely. Start your Replit api and run `yarn start` in your app to run the demo.
 
 ## What's happening here?
-This is a high level overview of how the app, the api and the authentication server work together to allow secure communication.
+This is a high level flow diagram of how the app, the api and the authentication server work together to allow secure communication.
 
 ![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
 
@@ -54,6 +54,6 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzc4NDkzOSwtMTY4Mjc1MTg4OCwtNj
-k5NjE0NDE4LC0yMDk5MDU5ODA2XX0=
+eyJoaXN0b3J5IjpbLTE5NTQyMDM3NzksLTgxMzc4NDkzOSwtMT
+Y4Mjc1MTg4OCwtNjk5NjE0NDE4LC0yMDk5MDU5ODA2XX0=
 -->
