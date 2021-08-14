@@ -37,7 +37,8 @@ That's it, the app and the API can now communicate securely. Start your Replit A
 ## What's happening here?
 This is a high level flow diagram of how the app, the API and the authentication server work together to allow secure communication using tokens.
 
-![auth3](https://user-images.githubusercontent.com/1271197/129458224-7e8306ce-edc4-47ad-b006-01f89523b701.png)
+![auth4](https://user-images.githubusercontent.com/1271197/129458255-d195d40d-cb21-479d-bd21-ca86f1ddd322.png)
+
 
 
 ## Questions and Issues
