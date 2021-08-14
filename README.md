@@ -1,3 +1,4 @@
+
 # auth0-react-node-ts
 
 This is a **minimal example of authenticated communication** between a React app and a node.js server using Auth0.
@@ -36,7 +37,7 @@ That's it, the app and the API can now communicate securely. Start your Replit A
 ## What's happening here?
 This is a high level flow diagram of how the app, the API and the authentication server work together to allow secure communication using tokens.
 
-![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
+![auth3](https://user-images.githubusercontent.com/1271197/129458224-7e8306ce-edc4-47ad-b006-01f89523b701.png)
 
 
 ## Questions and Issues
