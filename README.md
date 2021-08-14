@@ -1,6 +1,6 @@
 # auth0-react-node-ts
 
-This is a minimal example of simple authenticated communication between a React app and a node.js server using Auth0.
+This is a **minimal example of authenticated communication** between a React app and a node.js server using Auth0.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
@@ -8,19 +8,19 @@ This is a minimal example of simple authenticated communication between a React 
 
 ## Workshop
 
-The Quick Start below will get you up and running quickly but for a deep dive we recommend working through the [Auth0 React Workshop](https://github.com/jamesqquick/auth0-react-workshop).
+The Quick Start below will get you up and running quickly but for a deep dive we recommend working through the official [Auth0 React Workshop](https://github.com/jamesqquick/auth0-react-workshop).
 
 ## Quick Start
 
 1.  [Fork this repo](https://github.com/DomVinyard/auth0-react-node-ts/fork) and open it up in an editor. Run `yarn` to install dependencies.
 
-2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts `. Find the fields `Allowed Callback URLs` and `Allowed Web Origins` and set **both** to:
+2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts`. Find the fields `Allowed Callback URLs` and `Allowed Web Origins` and set **both** to:
 
 ```
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values.
+3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set the Domain and Client ID.
 
 4. Next, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
@@ -33,14 +33,16 @@ value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 
 That's it, the app and the api can now communicate securely. Start your Replit api and run `yarn start` in your app to run the demo.
 
-## How does it all work?
+## What's happening here?
+This is a high level flow diagram of how the app, the api and the auth server work together to allow secure communication using token-based authentication.
 
-TODO:
+![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
 
-- Annotated Diagram
-- Anatomy of a token (high level)
 
 ## Common Issues
+
+### I want the user to stay logged in when they refresh the page
+Refer to the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
 
 ### My app doesn't work when it's deployed
 
@@ -51,3 +53,8 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk5OTAzMjEzOCwtMTk5OTY3MTk1MSwxNz
+c4ODczNTY4LC0xOTU0MjAzNzc5LC04MTM3ODQ5MzksLTE2ODI3
+NTE4ODgsLTY5OTYxNDQxOCwtMjA5OTA1OTgwNl19
+-->
