@@ -1,6 +1,6 @@
 # auth0-react-node-ts
 
-This is a minimal example of how to provide simple authenticated communication between a React app and a node.js server using Auth0.
+This is a minimal example of simple authenticated communication between a React app and a node.js server using Auth0.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
