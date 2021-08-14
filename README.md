@@ -1,6 +1,6 @@
 # auth0-react-node-ts
 
-This is a minimal example of simple authenticated communication between a React app and a node.js server using Auth0.
+This is a **minimal example of authenticated communication** between a React app and a node.js server using Auth0.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
@@ -52,5 +52,5 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkwNTk4MDZdfQ==
+eyJoaXN0b3J5IjpbLTY5OTYxNDQxOCwtMjA5OTA1OTgwNl19
 -->
