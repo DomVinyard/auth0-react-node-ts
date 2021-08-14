@@ -30,7 +30,7 @@ key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
 
-5. Now both your app and the API are configured to use Auth0. Finally we need to connect the app to the API. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
+5. Now both your app and the API are configured to use Auth0. Finally we need to connect the app to the API. Open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
 That's it, the app and the API can now communicate securely. Start your Replit API and run `yarn start` in your app to start the demo.
 
@@ -59,9 +59,9 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg5OTMwMzUsLTc4Nzg4NzkzMyw1Nz
-k0Njk4MTIsNjQ3NzQ4NTQ2LDE5OTkwMzIxMzgsLTE5OTk2NzE5
-NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OSwtODEzNzg0OTM5LC
-0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIwOTkwNTk4MDZdfQ==
-
+eyJoaXN0b3J5IjpbNDIwNjYzMTYzLC0yMDQ4OTkzMDM1LC03OD
+c4ODc5MzMsNTc5NDY5ODEyLDY0Nzc0ODU0NiwxOTk5MDMyMTM4
+LC0xOTk5NjcxOTUxLDE3Nzg4NzM1NjgsLTE5NTQyMDM3NzksLT
+gxMzc4NDkzOSwtMTY4Mjc1MTg4OCwtNjk5NjE0NDE4LC0yMDk5
+MDU5ODA2XX0=
 -->
