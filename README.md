@@ -59,8 +59,9 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Nzg4NzkzMyw1Nzk0Njk4MTIsNjQ3Nz
-Q4NTQ2LDE5OTkwMzIxMzgsLTE5OTk2NzE5NTEsMTc3ODg3MzU2
-OCwtMTk1NDIwMzc3OSwtODEzNzg0OTM5LC0xNjgyNzUxODg4LC
-02OTk2MTQ0MTgsLTIwOTkwNTk4MDZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDg5OTMwMzUsLTc4Nzg4NzkzMyw1Nz
+k0Njk4MTIsNjQ3NzQ4NTQ2LDE5OTkwMzIxMzgsLTE5OTk2NzE5
+NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OSwtODEzNzg0OTM5LC
+0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIwOTkwNTk4MDZdfQ==
+
 -->
