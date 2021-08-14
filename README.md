@@ -1,6 +1,6 @@
 # auth0-react-node-ts
 
-This is a minimal starter for a full-stack React+node.js project configured to use Auth0, written in TypeScript. It is a minimal example of how to provide simple authenticated communication between a client and a server.
+This is a minimal example of how to provide simple authenticated communication between a client and a server using Auth0.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
