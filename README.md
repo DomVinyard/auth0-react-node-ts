@@ -22,19 +22,19 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set the Domain and Client ID.
 
-4. Next, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
+4. Next, we need an API to connect to. Visit the [demo API hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
 ```#
 key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
 
-5. Now both your app and the api are configured to use Auth0. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
+5. Now both your app and the API are configured to use Auth0. Finally we need to connect the app to the API. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
-That's it, the app and the api can now communicate securely. Start your Replit api and run `yarn start` in your app to run the demo.
+That's it, the app and the API can now communicate securely. Start your Replit API and run `yarn start` in your app to start the demo.
 
 ## What's happening here?
-This is a high level flow diagram of how the app, the api and the auth server work together to allow secure communication using token-based authentication.
+This is a high level flow diagram of how the app, the API and the auth server work together to allow secure communication using token-based authentication.
 
 ![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
 
@@ -54,7 +54,8 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTAzMjEzOCwtMTk5OTY3MTk1MSwxNz
-c4ODczNTY4LC0xOTU0MjAzNzc5LC04MTM3ODQ5MzksLTE2ODI3
-NTE4ODgsLTY5OTYxNDQxOCwtMjA5OTA1OTgwNl19
+eyJoaXN0b3J5IjpbLTE5OTM3ODk4ODcsMTk5OTAzMjEzOCwtMT
+k5OTY3MTk1MSwxNzc4ODczNTY4LC0xOTU0MjAzNzc5LC04MTM3
+ODQ5MzksLTE2ODI3NTE4ODgsLTY5OTYxNDQxOCwtMjA5OTA1OT
+gwNl19
 -->
