@@ -35,10 +35,7 @@ That's it, the app and the api can now communicate securely. Start your Replit a
 
 ## How does it all work?
 
-TODO:
-
-- Annotated Diagram
-- Anatomy of a token (high level)
+![auth](https://user-images.githubusercontent.com/1271197/129446010-8c3f9ff1-b418-4d9e-a390-7c96fc68a3b4.png)
 
 ## Common Issues
 
