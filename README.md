@@ -10,13 +10,13 @@ This is a minimal example of simple authenticated communication between a React 
 
 1.  [Fork this repo](https://github.com/DomVinyard/auth0-react-node-ts/fork) and open it up in an editor. Run `yarn` to install dependencies.
 
-2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts `. Look for the fields `Allowed Callback URLs` and `Allowed Web Origins`, set **both** of these to:
+2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts `. Find the fields `Allowed Callback URLs` and `Allowed Web Origins` and set **both** to:
 
 ```
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values. Your app is now configured to fetch tokens from Auth0.
+3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values.
 
 4. Next, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
