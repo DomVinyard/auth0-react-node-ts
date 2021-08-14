@@ -21,7 +21,7 @@ The Quick Start below will get you up and running quickly but for a deep dive we
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example`  and set the Domain and Client ID. Rename the file `.env`.
+3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example`  and set the Domain and Client ID. Rename the file `.env` (remove the `.example` extension).
 
 4. Next, we need an API to connect to. Visit the [demo API hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
@@ -59,9 +59,9 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit these to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg5Mzc1NjEsLTIwNDg5OTMwMzUsLT
-c4Nzg4NzkzMyw1Nzk0Njk4MTIsNjQ3NzQ4NTQ2LDE5OTkwMzIx
-MzgsLTE5OTk2NzE5NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OS
-wtODEzNzg0OTM5LC0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIw
-OTkwNTk4MDZdfQ==
+eyJoaXN0b3J5IjpbMTA0Njg3OTMwNiwtMjExODkzNzU2MSwtMj
+A0ODk5MzAzNSwtNzg3ODg3OTMzLDU3OTQ2OTgxMiw2NDc3NDg1
+NDYsMTk5OTAzMjEzOCwtMTk5OTY3MTk1MSwxNzc4ODczNTY4LC
+0xOTU0MjAzNzc5LC04MTM3ODQ5MzksLTE2ODI3NTE4ODgsLTY5
+OTYxNDQxOCwtMjA5OTA1OTgwNl19
 -->
