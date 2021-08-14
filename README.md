@@ -1,10 +1,10 @@
 # auth0-react-node-ts
 
-This is a minimal starter for a full-stack React+node.js with Auth0, written in TypeScript. It is a minimal example of how to provide simple authenticated communication between a client and a server.
+This is a minimal starter for a full-stack React+node.js project configured to use Auth0, written in TypeScript. It is a minimal example of how to provide simple authenticated communication between a client and a server.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
-(The demo connects to [this api](https://replit.com/@DomVinyard/auth0-react-node-ts-server) hosted on Replit).
+(The demo connects to an [api](https://replit.com/@DomVinyard/auth0-react-node-ts-server) hosted on Replit).
 
 ## Quick Start
 
@@ -16,18 +16,18 @@ This is a minimal starter for a full-stack React+node.js with Auth0, written in 
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. In your forked repo open `/.env.example` , rename it `.env` and set these two values. Your app is now configured to fetch tokens from Auth0.
+3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values. Your app is now configured to fetch tokens from Auth0. There is a one final environment variable which we will set in step 5.
 
-4. Finally, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
+4. Next, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
 ```#
 key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
 
-5. Replit has assigned you a url for your forked project. Back in your client repo, open your .env file and set `REACT_APP_API_URL` to this value (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`). Your app is now configured to talk to the api.
+5. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
-That's it, we have Auth0 configured for both your client (hosted locally) and your server (hosted on Replit). The two can now communicate securely.
+That's it, we have Auth0 configured for both your app and your api. The two can now communicate securely.
 
 ## How does it all work?
 
