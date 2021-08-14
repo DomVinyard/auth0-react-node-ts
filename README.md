@@ -35,7 +35,8 @@ That's it, the app and the api can now communicate securely. Start your Replit a
 
 ## How does it all work?
 
-![auth](https://user-images.githubusercontent.com/1271197/129446010-8c3f9ff1-b418-4d9e-a390-7c96fc68a3b4.png)
+![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
+
 
 ## Common Issues
 
