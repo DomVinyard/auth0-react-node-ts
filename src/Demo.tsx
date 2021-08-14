@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import GithubCorner from 'react-github-corner';
 
 function App() {
-  const API_URL = 'https://checkauth.domvinyard.repl.co';
+  const API_URL =
+    process.env.REACT_APP_API_URL || 'https://checkauth.domvinyard.repl.co';
   const { isLoading, isAuthenticated, error, user, loginWithRedirect } =
     useAuth0();
   const { getAccessTokenSilently } = useAuth0();
