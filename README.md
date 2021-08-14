@@ -39,7 +39,7 @@ This is a high level flow diagram of how the app, the API and the auth server wo
 ![auth2](https://user-images.githubusercontent.com/1271197/129446099-d03711e9-5458-43c8-bb72-1959b1a8caa7.png)
 
 
-## Common Issues
+## Questions and Issues
 
 ### Can I use this in my other projects
 Keep in mind this is just the simplest example of a token being consumed by an API. There is no sign up, no database, we are not storing our users or dealing with permissions. For a more complete solution check the [Official Auth0 React Workshop repo](https://github.com/jamesqquick/auth0-react-workshop).
@@ -57,7 +57,7 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NTA5NDY5LDE5OTkwMzIxMzgsLTE5OT
+eyJoaXN0b3J5IjpbNjQ3NzQ4NTQ2LDE5OTkwMzIxMzgsLTE5OT
 k2NzE5NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OSwtODEzNzg0
 OTM5LC0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIwOTkwNTk4MD
 ZdfQ==
