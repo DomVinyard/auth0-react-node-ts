@@ -51,8 +51,8 @@ function App() {
                   and they sent you back again with a special token.
                 </p>
                 <p>
-                  Google have told us that your name is assured us that nobody
-                  else could have this specific token, only someone named{' '}
+                  Google have told us that nobody else could have this specific
+                  token, only someone named{' '}
                   <code
                     style={{
                       backgroundColor: '#ddd',
@@ -95,7 +95,7 @@ function App() {
                   get a token from?
                 </div>
                 <button onClick={loginWithRedirect}>
-                  🔑 Log in (get a token)
+                  🔑 Log in with Google (get a token)
                 </button>
               </div>
             )}
