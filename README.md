@@ -27,7 +27,7 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 ```#
 key: AUTH0_DOMAIN
-value: <your Auth0 Domain> (example: dom.eu.auth0.com)
+value: <your Auth0 Domain> (same value as step 3)
 ```
 
 5. Now both your app and the API are configured to use Auth0. Finally we need to connect the app to the API. Open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
@@ -59,9 +59,9 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit these to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njg3OTMwNiwtMjExODkzNzU2MSwtMj
-A0ODk5MzAzNSwtNzg3ODg3OTMzLDU3OTQ2OTgxMiw2NDc3NDg1
-NDYsMTk5OTAzMjEzOCwtMTk5OTY3MTk1MSwxNzc4ODczNTY4LC
-0xOTU0MjAzNzc5LC04MTM3ODQ5MzksLTE2ODI3NTE4ODgsLTY5
-OTYxNDQxOCwtMjA5OTA1OTgwNl19
+eyJoaXN0b3J5IjpbLTE5OTg5MzY0NjksLTIxMTg5Mzc1NjEsLT
+IwNDg5OTMwMzUsLTc4Nzg4NzkzMyw1Nzk0Njk4MTIsNjQ3NzQ4
+NTQ2LDE5OTkwMzIxMzgsLTE5OTk2NzE5NTEsMTc3ODg3MzU2OC
+wtMTk1NDIwMzc3OSwtODEzNzg0OTM5LC0xNjgyNzUxODg4LC02
+OTk2MTQ0MTgsLTIwOTkwNTk4MDZdfQ==
 -->
