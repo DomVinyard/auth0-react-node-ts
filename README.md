@@ -15,7 +15,7 @@ The Quick Start below will get you up and running quickly but for a deep dive we
 
 1.  [Fork this repo](https://github.com/DomVinyard/auth0-react-node-ts/fork) and open it up in an editor. Run `yarn` to install dependencies.
 
-2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts`. Find the fields `Allowed Callback URLs` and `Allowed Web Origins` and set **both** to:
+2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` set the Application type to `SPA` set the application name to `auth0-react-node-ts`. Find the fields `Allowed Callback URLs` and `Allowed Web Origins` and set **both** to:
 
 ```
 http://localhost:3000, https://add_production_url_here_once_deployed.com
@@ -59,10 +59,10 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit these to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3MjMxODQsLTY5NTgyNjgwOCwtMT
-k1Njg3NjM1OSwtMjExODkzNzU2MSwtMjA0ODk5MzAzNSwtNzg3
-ODg3OTMzLDU3OTQ2OTgxMiw2NDc3NDg1NDYsMTk5OTAzMjEzOC
-wtMTk5OTY3MTk1MSwxNzc4ODczNTY4LC0xOTU0MjAzNzc5LC04
-MTM3ODQ5MzksLTE2ODI3NTE4ODgsLTY5OTYxNDQxOCwtMjA5OT
-A1OTgwNl19
+eyJoaXN0b3J5IjpbLTMwMTIxMTAzMywtMTc0MTcyMzE4NCwtNj
+k1ODI2ODA4LC0xOTU2ODc2MzU5LC0yMTE4OTM3NTYxLC0yMDQ4
+OTkzMDM1LC03ODc4ODc5MzMsNTc5NDY5ODEyLDY0Nzc0ODU0Ni
+wxOTk5MDMyMTM4LC0xOTk5NjcxOTUxLDE3Nzg4NzM1NjgsLTE5
+NTQyMDM3NzksLTgxMzc4NDkzOSwtMTY4Mjc1MTg4OCwtNjk5Nj
+E0NDE4LC0yMDk5MDU5ODA2XX0=
 -->
