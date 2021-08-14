@@ -8,7 +8,7 @@ This is a minimal example of simple authenticated communication between a React 
 
 ## Workshop
 
-The Quick Start below will get you up and running quickly but for a deep dive we recommend working through the [Auth0 React Workshop](https://github.com/jamesqquick/auth0-react-workshop).
+The Quick Start below will get you up and running quickly but for a deep dive we recommend working through the official [Auth0 React Workshop](https://github.com/jamesqquick/auth0-react-workshop).
 
 ## Quick Start
 
@@ -52,5 +52,5 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQyMzQ0MTVdfQ==
+eyJoaXN0b3J5IjpbLTIwOTkwNTk4MDZdfQ==
 -->
