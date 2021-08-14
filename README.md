@@ -1,8 +1,10 @@
 # auth0-react-node-ts
 
-This is a minimal starter for a full-stack React+node.js with Auth0, written in TypeScript to provide simple authenticated communication between a client and a server, using Auth0 to provide an authentication token.
+This is a minimal starter for a full-stack React+node.js with Auth0, written in TypeScript. It is a minimal example of how to provide simple authenticated communication between a client and a server.
 
-> ## 👉 [Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
+### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
+
+(The demo does not store any credentials in cookies or anywhere else. Once the tab is closed or refreshed then the token is destroyed).
 
 ## Quick Start
 
@@ -18,7 +20,7 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 4. Finally, we need an api to fetch from. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/checkauth#index.js) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
-```
+```#
 key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
