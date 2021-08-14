@@ -6,6 +6,10 @@ This is a minimal example of simple authenticated communication between a React 
 
 (The demo connects to an [api](https://replit.com/@DomVinyard/auth0-react-node-ts-server) hosted on Replit).
 
+## Workshop
+
+The Quick Start below will get you up and running quickly but for a deep dive we recommend working through the [Auth0 React Workshop](https://github.com/jamesqquick/auth0-react-workshop).
+
 ## Quick Start
 
 1.  [Fork this repo](https://github.com/DomVinyard/auth0-react-node-ts/fork) and open it up in an editor. Run `yarn` to install dependencies.
@@ -25,7 +29,7 @@ key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
 
-5. Now both the app and the api are configured to use Auth0. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
+5. Now both your app and the api are configured to use Auth0. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
 That's it, the app and the api can now communicate securely. Start your Replit api and run `yarn start` in your app to run the demo.
 
@@ -46,4 +50,4 @@ You have deployed your app to Netlify or Vercel but it throws an error when it t
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`). .
+Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
