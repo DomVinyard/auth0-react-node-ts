@@ -14,17 +14,23 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors())
 
+// If no domain is set, exit
+if (!process.env.AUTH0_DOMAIN) {
+  console.error('Error: AUTH0_DOMAIN is not set')
+  process.exit()
+}
+
 // Dynamically provide a signing key based on the kid in the header and the signing keys provided by the JWKS endpoint.
 const checkJwt = jwt({
   secret: jwksRsa.expressJwtSecret({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: `https://newco.eu.auth0.com/.well-known/jwks.json`
+    jwksUri: `https://${process.env.AUTH0_DOMAIN}/.well-known/jwks.json`
   }),
 
   // Validate the audience and the issuer.
-  audience: 'https://newco.eu.auth0.com/api/v2/',
+  audience: `https://${process.env.AUTH0_DOMAIN}/api/v2/`,
   algorithms: ['RS256']
 });
 
