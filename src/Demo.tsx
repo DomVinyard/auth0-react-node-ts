@@ -2,9 +2,12 @@ import { useAuth0 } from '@auth0/auth0-react';
 import { useEffect, useState } from 'react';
 import GithubCorner from 'react-github-corner';
 
+// If the API has not been forked, use the Demo API
+const FALLBACK_API_URL =
+  'https://auth0-react-node-ts-server--domvinyard.repl.co';
+
 function App() {
-  const API_URL =
-    process.env.REACT_APP_API_URL || 'https://checkauth.domvinyard.repl.co';
+  const API_URL = process.env.REACT_APP_API_URL || FALLBACK_API_URL;
   const { isLoading, isAuthenticated, error, user, loginWithRedirect } =
     useAuth0();
   const { getAccessTokenSilently } = useAuth0();
