@@ -10,13 +10,13 @@ This is a minimal example of simple authenticated communication between a React 
 
 1.  [Fork this repo](https://github.com/DomVinyard/auth0-react-node-ts/fork) and open it up in an editor. Run `yarn` to install dependencies.
 
-2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application`. Set the name to `auth0-react-node-ts ` and look for the fields, `Allowed Callback URLs` and `Allowed Web Origins`. Set **both** of these to:
+2.  Visit [Auth0](https://manage.auth0.com) and set up a free account. Click `+ Create Application` and set the application name to `auth0-react-node-ts `. Look for the fields `Allowed Callback URLs` and `Allowed Web Origins`, set **both** of these to:
 
 ```
 http://localhost:3000, https://add_production_url_here_once_deployed.com
 ```
 
-3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values. Your app is now configured to fetch tokens from Auth0. There is a one final environment variable which we will set in step 5.
+3. You will see that Auth0 has provided you with a `Domain` and a `Client ID`. Inside your app open `/.env.example` , rename it `.env` and set these two values. Your app is now configured to fetch tokens from Auth0.
 
 4. Next, we need an api to connect to. Visit the [demo api hosted on Replit](https://replit.com/@DomVinyard/auth0-react-node-ts-server) and fork the project. Inside your new forked Replit project, click on 'Secrets' and add the following.
 
@@ -25,9 +25,9 @@ key: AUTH0_DOMAIN
 value: <your Auth0 Domain> (example: dom.eu.auth0.com)
 ```
 
-5. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
+5. We now both have the app and the api configured to use Auth0. Finally we need to connect the app to the api. Back in your app repo, open your .env file and set `REACT_APP_API_URL` to your forked Replit URL (it will look something like `https://auth0-react-node-ts-server--your_username.repl.co`).
 
-That's it, we have Auth0 configured for both your app and your api. The two can now communicate securely. Start your Replit api and then run `yarn start` in your app to run the demo.
+That's it, the app and the api can now communicate securely. Start your Replit api and run `yarn start` in your app to run the demo.
 
 ## How does it all work?
 
