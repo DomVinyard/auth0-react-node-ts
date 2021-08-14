@@ -42,7 +42,7 @@ This is a high level flow diagram of how the app, the api and the authentication
 ## Common Issues
 
 ### I want the user to stay logged in when they refresh the page
-This is typically done using cookies. 
+Refer to the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
 
 ### My app doesn't work when it's deployed
 
@@ -54,6 +54,7 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQyMDM3NzksLTgxMzc4NDkzOSwtMT
-Y4Mjc1MTg4OCwtNjk5NjE0NDE4LC0yMDk5MDU5ODA2XX0=
+eyJoaXN0b3J5IjpbMTc3ODg3MzU2OCwtMTk1NDIwMzc3OSwtOD
+EzNzg0OTM5LC0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIwOTkw
+NTk4MDZdfQ==
 -->
