@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react';
 import GithubCorner from 'react-github-corner';
 
 // If the API has not been forked, use the Demo API
-const FALLBACK_API_URL =
-  'https://auth0-react-node-ts-server--domvinyard.repl.co';
+const FALLBACK_API_URL = 'https://auth0-react-node-ts-api--domvinyard.repl.co';
 
 function App() {
   const API_URL = process.env.REACT_APP_API_URL || FALLBACK_API_URL;
