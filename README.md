@@ -44,10 +44,10 @@ This is a high level flow diagram of how the app, the API and the authentication
 ## Questions and Issues
 
 ### Can I use this in my other projects
-Keep in mind this is just the simplest example of a token being consumed by an API. There is no sign up, no database, we are not storing our users or dealing with permissions. For a more complete solution check the [Official Auth0 React Workshop repo](https://github.com/jamesqquick/auth0-react-workshop).
+Keep in mind this is just the simplest example of a token being consumed by an API. There is no sign up flow, no database at all, we are not remembering our users or dealing with permissions. For a more complete solution check the [Official Auth0 React Workshop repo](https://github.com/jamesqquick/auth0-react-workshop).
 
 ### I want the user to stay logged in when they refresh the page
-Refer to the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
+Look at the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
 
 ### My app doesn't work when it's deployed
 
@@ -59,9 +59,9 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNjYzMTYzLC0yMDQ4OTkzMDM1LC03OD
-c4ODc5MzMsNTc5NDY5ODEyLDY0Nzc0ODU0NiwxOTk5MDMyMTM4
-LC0xOTk5NjcxOTUxLDE3Nzg4NzM1NjgsLTE5NTQyMDM3NzksLT
-gxMzc4NDkzOSwtMTY4Mjc1MTg4OCwtNjk5NjE0NDE4LC0yMDk5
-MDU5ODA2XX0=
+eyJoaXN0b3J5IjpbLTE5NTk4NjE5NTcsLTIwNDg5OTMwMzUsLT
+c4Nzg4NzkzMyw1Nzk0Njk4MTIsNjQ3NzQ4NTQ2LDE5OTkwMzIx
+MzgsLTE5OTk2NzE5NTEsMTc3ODg3MzU2OCwtMTk1NDIwMzc3OS
+wtODEzNzg0OTM5LC0xNjgyNzUxODg4LC02OTk2MTQ0MTgsLTIw
+OTkwNTk4MDZdfQ==
 -->
