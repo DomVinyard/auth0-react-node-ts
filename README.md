@@ -41,6 +41,8 @@ This is a high level flow diagram of how the app, the API and the auth server wo
 
 ## Common Issues
 
+### W
+
 ### I want the user to stay logged in when they refresh the page
 Refer to the [Auth0 docs section on Sessions](https://auth0.com/docs/sessions).
 
@@ -54,8 +56,8 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit both of these fields and replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjk3MDU0OSwxOTk5MDMyMTM4LC0xOT
-k5NjcxOTUxLDE3Nzg4NzM1NjgsLTE5NTQyMDM3NzksLTgxMzc4
-NDkzOSwtMTY4Mjc1MTg4OCwtNjk5NjE0NDE4LC0yMDk5MDU5OD
-A2XX0=
+eyJoaXN0b3J5IjpbLTE4MDIyNjExNDMsMTk5OTAzMjEzOCwtMT
+k5OTY3MTk1MSwxNzc4ODczNTY4LC0xOTU0MjAzNzc5LC04MTM3
+ODQ5MzksLTE2ODI3NTE4ODgsLTY5OTYxNDQxOCwtMjA5OTA1OT
+gwNl19
 -->
