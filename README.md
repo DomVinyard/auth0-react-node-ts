@@ -1,7 +1,7 @@
 
 # auth0-react-node-ts
 
-This is a **minimal example of authenticated communication** between a React app and a node.js API using Auth0.
+This is a **minimal example**  of authenticated communication between a React app and a node.js API using Auth0.
 
 ### 👉 [Full-stack Demo](https://auth0-react-node-ts-domv.vercel.app) 👈
 
@@ -59,10 +59,10 @@ http://localhost:3000, https://add_production_url_here_once_deployed.com
 
 Edit these to replace `https://add_production_url_here_once_deployed.com` with the URL of your deployed app (aka `https://myapp.netlify.com`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTIxMTAzMywtMTc0MTcyMzE4NCwtNj
-k1ODI2ODA4LC0xOTU2ODc2MzU5LC0yMTE4OTM3NTYxLC0yMDQ4
-OTkzMDM1LC03ODc4ODc5MzMsNTc5NDY5ODEyLDY0Nzc0ODU0Ni
-wxOTk5MDMyMTM4LC0xOTk5NjcxOTUxLDE3Nzg4NzM1NjgsLTE5
-NTQyMDM3NzksLTgxMzc4NDkzOSwtMTY4Mjc1MTg4OCwtNjk5Nj
-E0NDE4LC0yMDk5MDU5ODA2XX0=
+eyJoaXN0b3J5IjpbLTc1Mzg0MTAxLC0zMDEyMTEwMzMsLTE3ND
+E3MjMxODQsLTY5NTgyNjgwOCwtMTk1Njg3NjM1OSwtMjExODkz
+NzU2MSwtMjA0ODk5MzAzNSwtNzg3ODg3OTMzLDU3OTQ2OTgxMi
+w2NDc3NDg1NDYsMTk5OTAzMjEzOCwtMTk5OTY3MTk1MSwxNzc4
+ODczNTY4LC0xOTU0MjAzNzc5LC04MTM3ODQ5MzksLTE2ODI3NT
+E4ODgsLTY5OTYxNDQxOCwtMjA5OTA1OTgwNl19
 -->
